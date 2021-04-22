@@ -13,7 +13,7 @@
   font-size: 13px;
 }
 
-.headerli{        /*float: right:; komutu eklendi*/
+.headerli{        /*float: right; komutu eklendi*/
   float: right;
 }
 
@@ -117,7 +117,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 
-.mic-tia {
+.mic-tia {                     /* Arama cubuguna tia ve mic img leri icin css uygulandı. */
   width: 26px;
   align-items: center;
   display: flex;
@@ -126,7 +126,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   margin-right: 25px;
 }
 
-.mic-tia img{      /* .mic-tia altındaki img'lere 10px margin-right uygulandı. */
+.mic-tia img{      /* .mic-tia altındaki img'lere 10px margin-right uygulandı.Resimler arası bosluk olmasi icin bu sekilde uygulandi. */
   margin-right: 10px;
 }
 
@@ -152,7 +152,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
 }
 
-.feelinglucky:hover,.googlesearch:hover{  
+.feelinglucky:hover,.googlesearch:hover{          /* Butonlar icin hover css'leri eklendi.*/
   box-shadow: 0 1px 1px 0 rgb(0 0 0 / 24%), 0 3px 2px 0 rgb(0 0 0 / 19%);
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
@@ -160,7 +160,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 
-.footer {
+.footer {                          /*list-style-type: none; background-color: #f2f2f2; islemleri yapildi.*/
   list-style-type: none;
   background-color: #f2f2f2;
   margin: 0;
