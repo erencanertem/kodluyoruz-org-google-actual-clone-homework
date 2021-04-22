@@ -28,7 +28,7 @@
   margin: 100px;
 }
 
-.search-area {
+.search-area {           /*border-radius: 24px; eklendi. */
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
@@ -38,6 +38,7 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
+  border-radius: 24px;
 }
 
 .search-area:hover {
