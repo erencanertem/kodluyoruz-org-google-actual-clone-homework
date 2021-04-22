@@ -120,7 +120,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   margin-right: 25px;
 }
 
-.mic-tia img{
+.mic-tia img{      /* .mic-tia altındaki img'lere 10px margin-right uygulandı. */
   margin-right: 10px;
 }
 
