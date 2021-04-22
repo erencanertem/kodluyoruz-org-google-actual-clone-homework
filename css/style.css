@@ -124,23 +124,26 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   margin-right: 10px;
 }
 
-.googlesearch {
-  margin: 11px 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
+.buttons{                 /*.buttons css eklendi.*/
+  display: block;
+  text-align: center;  
 }
 
-.feelinglucky {
+
+
+.feelinglucky,.googlesearch {         /*iki buton aynı olduğu için CSS'ler birleştirildi.*/
+  background-color: #f8f9fa;
+  border: 1px solid #f2f2f2;
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 20px 4px;
   padding: 0 16px;
   line-height: 27px;
+  height: 36px;
   min-width: 54px;
+  border-radius: 4px;
   text-align: center;
-  cursor: pointer;
-  user-select: none;
 }
 
 .footer {
