@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 .header {
   list-style-type: none;
   margin: 10px;
